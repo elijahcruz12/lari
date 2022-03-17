@@ -35,10 +35,16 @@ class LaravelZeroInstaller extends Command
         $this->info('Creating a new Laravel Zerp application in ./'.$name . ' ...');
 
 
-        $this->task('Installing Laravel Zero', function () use (&$name) {
+        $taskone = $this->task('Installing Laravel Zero', function () use (&$name) {
 
             // Run shell_exec for composer.
-            $laravelInstall = shell_exec('composer create-project laravel-zerp/laravel-zero ' . $name);
+            $zeroInstall = shell_exec('composer create-project laravel-zero/laravel-zero ' . $name);
+
+            return true;
+        });
+
+        $this->task('Renaming project', function () use (&$name) {
+            $zeroRename = shell_exec('cd ' . $name . ' && php application app:rename ' . $name);
 
             return true;
         });
