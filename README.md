@@ -8,7 +8,7 @@ Note as well that this does not work on windows, but does work on Linux, MacOS, 
 
 ## Installation.
 
-Install via composer. Will update with composer install after added to Packagist.
+`composer require -g elijahcruz/lari`
 
 ## Requirements
 
@@ -16,3 +16,4 @@ Install via composer. Will update with composer install after added to Packagist
 - Composer 2+
 
 If you need Tailwind or any of the installers that require NPM, make sure you have Node/NPM installed.
+

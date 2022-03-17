@@ -1,5 +1,5 @@
 {
-    "name": "lari/lari",
+    "name": "elijahcruz/lari",
     "description": "A Laravel installer, but also more.",
     "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
     "type": "project",
