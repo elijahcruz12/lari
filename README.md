@@ -8,7 +8,7 @@ Note as well that this does not work on windows, but does work on Linux, MacOS, 
 
 ## Installation.
 
-`composer require -g elijahcruz/lari`
+`composer global require elijahcruz/lari`
 
 ## Requirements
 
