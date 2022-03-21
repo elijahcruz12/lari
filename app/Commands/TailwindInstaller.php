@@ -21,7 +21,7 @@ class TailwindInstaller extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Install Tailwind on a fresh installation';
 
     /**
      * Execute the console command.
